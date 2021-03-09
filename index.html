@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <title>AJAX Ejemplo</title>
+</head>
+<body>
+    <header>
+        <h1>AJAX Pre-Entrega Final</h1>
+        <br>
+        <h3>API Pokedex</h3>
+    </header>
+    <main>
+        <form action="#">
+            <label for="número">Numero de pokemon:</label>
+            <input type="text" placeholder="N°" id="num">
+            <br>
+            <input type="button" value="Info Basica" id="boton" class="btn">
+            <input type="button" value="Info Completa" class="btn" id="boton2">
+        </form>
+        <div id="pokestats">
+            <img alt="pokemon" id="pokeimg">
+            <p id="name">Nombre: </p>
+            <p id="skill">Habilidad: </p>
+            <p id="pokenumero">Numero: </p>
+        </div>
+
+    </main>
+</body>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</html>
